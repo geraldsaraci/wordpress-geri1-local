@@ -1,0 +1,12 @@
+# WordPress specific ignores
+wp-config.php         # VERY IMPORTANT: Sensitive database/secret keys
+wp-content/uploads/   # User uploaded media
+wp-content/cache/     # Caching files
+
+# Other non-essential/sensitive files
+*.sql
+*.bak
+.DS_Store
+Thumbs.db
+.env
+
